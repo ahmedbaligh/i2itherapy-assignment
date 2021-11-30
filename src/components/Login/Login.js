@@ -38,7 +38,6 @@ const Login = () => {
     } catch (err) {
       setError('Failed to login. Incorrect email or password.');
       console.error(err);
-    } finally {
       setLoading(false);
     }
   };
