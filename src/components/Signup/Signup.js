@@ -45,7 +45,6 @@ const Signup = () => {
     } catch (err) {
       setError('Failed to create an account');
       console.error(err);
-    } finally {
       setLoading(false);
     }
   };
