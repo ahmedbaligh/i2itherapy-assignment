@@ -6,9 +6,21 @@ export default styled.header`
   justify-content: space-between;
   align-items: center;
 
-  .app-name {
-    font-size: clamp(1.4rem, 2.5vw, 2.5rem);
-    font-weight: 500;
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .brand-logo {
+      img {
+        display: block;
+      }
+    }
+
+    .brand-name {
+      font-size: clamp(1.4rem, 2.5vw, 2.5rem);
+      font-weight: 500;
+    }
   }
 
   .user-container {
