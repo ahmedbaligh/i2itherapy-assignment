@@ -44,13 +44,7 @@ const Login = () => {
 
   return (
     <LoginWrapper>
-      <Segment
-        padded="very"
-        raised
-        size="large"
-        color="teal"
-        style={{ minWidth: 500 }}
-      >
+      <Segment padded="very" raised size="large" color="teal">
         <Header color="grey" size="huge" textAlign="center">
           Log In
         </Header>

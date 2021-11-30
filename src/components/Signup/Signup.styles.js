@@ -1,11 +1,15 @@
 import styled from 'styled-components';
 
 export default styled.div`
-  min-width: 800px;
+  min-width: min(800px, 50%);
   height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  .segment {
+    min-width: min(500px, 50%);
+  }
 
   label {
     font-size: 1rem !important;

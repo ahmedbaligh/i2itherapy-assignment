@@ -19,6 +19,7 @@ export const ClientsSegment = styled(Segment)`
 
 export const NewClientSegment = styled(Segment)`
   display: flex;
+  flex-wrap: wrap;
   gap: 5px;
 
   .add-client {
@@ -27,6 +28,7 @@ export const NewClientSegment = styled(Segment)`
     font-size: 1.3rem;
     color: teal;
     font-weight: 600;
+    font-style: italic;
     transition: color 0.3s;
 
     &:hover {
