@@ -26,7 +26,7 @@ const Dashboard = () => {
   }, [clients]);
 
   useEffect(() => {
-    if (searchTerm && clients) setShownClients(clients.filter(hasMatch));
+    if (clients) setShownClients(clients.filter(hasMatch));
   }, [searchTerm, clients, hasMatch]);
 
   return (
